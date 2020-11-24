@@ -1,0 +1,7 @@
+one is 4
+two is "4"
+
+if two greater_than one
+show " '4' > 4 "
+endif
+show "klaar"

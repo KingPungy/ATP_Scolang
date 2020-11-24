@@ -1,0 +1,7 @@
+run is 10
+test is 2.5
+while run
+    show run
+    run is run min test
+endwhile
+show run

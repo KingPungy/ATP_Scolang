@@ -1,0 +1,12 @@
+run is 10
+start is run
+
+while run
+    show run plus 
+    run is run min 1 
+endwhile 
+
+show "start waarde"
+show start
+show "eind waarde run"
+show run
