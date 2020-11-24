@@ -5,6 +5,6 @@ if low smaller_than high # net na een if statement #
 show "1 < 5"
 endif
 
-str is "five....   is nice number, look: " plus high # This is a in line lambda calculus stuff and a comment #
+str is "five....   is nice number, look: " plus high # This is lambda calculus stuff and a comment #
 show str
 show "Done" 
