@@ -74,8 +74,6 @@ def verbose_lex(f : Callable):
         print("lexer output")
         tokens = f(file_name)
         
-        
-        
         print("Regels: ",*tokens,sep="\nRegel: ")
 
         # for row in range(len(tokens)):

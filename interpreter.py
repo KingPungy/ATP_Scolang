@@ -23,7 +23,7 @@ from token_class import token
 from nodes import *
 from operators import *
 from token_types import token_types
-from parser_atp import parse_program, verbose_parse_program
+from parser_scolang import parse_program, verbose_parse_program
 from typing import List,Union
 from program_state import program_state
 from time import time
