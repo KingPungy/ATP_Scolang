@@ -10,17 +10,17 @@ Code is geschreven in functionele stijl.
 Taal ondersteunt:
 Loops? Voorbeeld: [while.txt](voorbeelden/while.txt) - [regel 4]     
 Goto-statements? Voorbeeld: [if.txt](voorbeelden/if.txt) - [regel 4]   
-Lambda-calculus? Voorbeeld: [files] - [regels]    
+Lambda-calculus? Voorbeeld: [lambdaCalc.txt](voorbeelden/lambdaCalc.txt) - [regels 9 , 11]    
 
 Bevat: 
-Classes met inheritance: bijvoorbeeld [file] - [regel]
-Object-printing voor elke class: [ja/nee]
-Decorator: functiedefinitie op [file] - [regel], toegepast op [file] - [regel]
-Type-annotatie: Haskell-stijl in comments: [ja/nee]; Python-stijl in functiedefinities: [ja/nee]
-Minstens drie toepassingen van hogere-orde functies:
-1. [file] - [regel]
-2. [file] - [regel]
-3. [file] - [regel]
+Classes met inheritance: bijvoorbeeld [nodes.py](nodes.py) - [regel]      
+Object-printing voor elke class: [__ja__/~nee~]      
+Decorator: functiedefinitie op [file] - [regel], toegepast op [file] - [regel]     
+Type-annotatie: Haskell-stijl in comments: [ja/nee]; Python-stijl in functiedefinities: [ja/nee]     
+Minstens drie toepassingen van hogere-orde functies:    
+1. [file] - [regel]  
+2. [file] - [regel]     
+3. [file] - [regel]    
 
 Interpreter-functionaliteit Must-have:
 Functies: [één per file / meer per file]
