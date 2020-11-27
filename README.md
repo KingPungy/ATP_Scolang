@@ -60,6 +60,20 @@ var2 = 1 + 2        //var2 is 1 plus 2
 3 + pow(2,4)        //3 plus 2 power 4
 3 * 5/4 + 10        //3 times 5 divide 4 plus 10
 ```
+### Speciale uitzonderingen met operatoren
+
+De plus operator kan als enige ook met strings werken en kan hiermee dus ook een string en een int/float aan elkaar plakken door deze te casten naaar een string.
+
+De conditionele operatoren gebruiken de lengte van een string als hiermee wordt vergeleken.
+
+### Keywords
+|keyword|uitleg|C equivalent|
+|:-:|-|:-:|
+|<b>if</b>|een if statement die kijkt of de conditie waar* is, als dit zo is dan wordt de "body" van de if uitgevoerd anders wordt er gesprongen naar de bijbehorende endif. | if |
+|<b>endif</b>|geeft het einde van een if statement aan| de afsluitende } van een if|
+|<b>while</b>|een statement die de "body" uitvoert als de conditie waar is, anders wordt er gesprongen naar de bijbehorende endwhile | while |
+|<b>endwhile</b>| geeft het einde van een while loop aan en springt terug naar de bijbehorende while en kijkt dan weer opnieuw of de loop uitgevoerd wordt of geskipt.|de afsluitende } van een while|
+|<b>show</b>| print de variabele of uitkomst van een expressie die achter de show staat, het is alleen mogelijk om 1 variabele of 1 uitkomst tegelijk te printen bijvoobeeld show var1,var2 is niet mogelijk op dit moment. daarnaast kunnen strings geprint worden, dit kan door een sting tussen "" achter de show te zetten. | printf()|
 
 
 
