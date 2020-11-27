@@ -1,13 +1,13 @@
-run wordt 10
-start wordt "start waarde"
+run is 10
+start is "start waarde"
 
-zolang run groter_gelijk 0
-    laat_zien run 
-    run wordt run min 1 
-einde_zolang 
+while run greater_than 0
+    show run 
+    run is run min 1 
+endwhile 
 
-laat_zien 10 anders_dan 10
-laat_zien "start waarde"
-laat_zien start
-laat_zien "eind waarde run"
-laat_zien run
+show 10 not_equal 10
+show "start waarde"
+show start
+show "eind waarde run"
+show run

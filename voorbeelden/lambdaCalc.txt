@@ -1,0 +1,13 @@
+one is -1
+two is 2
+three is -3.0
+four is 4.0
+five is "five is the best number"
+six is "six is ok" 
+
+
+show "2 minus -3 is: " plus two min three  # 2 - -3 = 5 #
+
+show "4 + -3 * -1 = " plus four plus three times one # 4 + -3 * -1 = 7 #
+
+
