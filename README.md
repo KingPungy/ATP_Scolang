@@ -15,14 +15,51 @@ De test.py file en de .txt files zijn voornamelijk voor testen tijdens het maken
 
 
 
-# opdracht
+# Opdracht
 Gekozen taal: Eigen Taal "Scolang"   
 Turing-compleet omdat:   
 
 Code is geschreven in functionele stijl.   
 
-taal bevat:
+## Taal bevat:
+### Operators
+|operator|uitleg|C equivalent|
+|:-:|:-:|:-:|
+|var1 <b>plus</b> var2| berkent de optelling van de 2 variabeles| var1 + var2|
+|var1 <b>min</b> var2| trekt de 2 variabelen van elkaar af| var1 - var2|
+|var1 <b>ddivide</b> var2| berkent de deling van de 2 variabeles| var1 / var2|
+|var1 <b>times</b> var2| berkent de vermenigvuldiging van de 2 variabeles| var1 * var2|
+|var1 <b>power</b> var2| berkent var1 tot de macht var2 (var1<sup>var2</sup>) |pow(var1,var2)|
+|var1 <b>smaller_than</b> var2| geeft 1 als var1 kleiner is dan var2 anders 0| var1 < var2|
+|var1 <b>greater_than</b> var2| geeft 1 als var1 groter is dan var2 anders 0| var1 > var2|
+|var1 <b>equal_to</b> var2| geeft 1 als var1 gelijk is aan var2 anders 0| var1 == var2|
+|var1 <b>not_equal_to</b> var2| geeft 1 als var1 niet gelijk is aan var2 anders 0| var1 != var2|
+|var1 <b>greater_equal</b> var2| geeft 1 als var1 gelijk is aan of groter is dan var2 anders 0| var1 >= var2|
+|var1 <b>smaller_equal</b> var2| geeft 1 als var1 gelijk is aan of kleiner is dan var2 anders 0| var1 <= var2|
+|var_name <b>is</b> const/expr/var_name| slaat de waarde aan de rechterkant van de <b>is</b> op in de gespecificeerde variabele naam| var_name = 1 / var_name = 1 + 2 / var_name = var2|
 
+bij alle operators is het mogelijk om deze te combineren, er wordt rekening gehouden met de rekenregels hieronder een lijst met de prioriteit van de operators. Daarnaast kunnen alle variabeles die aangemaakt zijn binnen het programma gebruikt worden op de plaats van var1/var2 in bovenstaande tabel. Tevens kunnen hier ook constantes staan.
+
+<b>
+1. macht 
+ 
+2. delen/vermenigvuldigen  
+
+3. plus/min  
+
+4. gelijk_aan,groter_dan,kleiner_dan en assignment(wordt)  
+
+</b>   
+
+Een aantal voorbeelden voor het gebruik van operators.    
+
+```c
+var1 = 1            //var1 is 1
+1 + 2               //1 plus 2
+var2 = 1 + 2        //var2 is 1 plus 2
+3 + pow(2,4)        //3 plus 2 power 4
+3 * 5/4 + 10        //3 times 5 divide 4 plus 10
+```
 
 
 
