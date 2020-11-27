@@ -1,2 +1,2 @@
-# ATP_Rockish
- python interpreter for a language that looks like rockstar but isn't
+# ATP_Scolang
+ python interpreter for a new programming language
