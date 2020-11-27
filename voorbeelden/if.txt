@@ -1,8 +1,8 @@
 low is 1
-high is -5.0
+high is 5.0
 # comment and shit #
 if low smaller_than high # net na een if statement #
-show "1 < 5"
+show 5 plus "1 < 5"
 endif
 
 str is "five....   is nice number, look: " plus high # This is lambda calculus stuff and a comment #

@@ -20,7 +20,7 @@ class token_types(Enum):
     OPERATOR_GREATER_THAN   = op_greater_than, "greater_than"
     OPERATOR_GREATER_EQUAL  = op_greater_equal, "greater_equal"
     OPERATOR_SMALLER_EQUAL  = op_smaller_equal, "smaller_equal"
-    OPERATOR_NOT_EQUAL      = op_not_equal, "not_equal"
+    OPERATOR_NOT_EQUAL      = op_not_equal, "not_equal_to"
 
     IF_STATEMENT    = 11, "if"
     END_IF          = 12, "endif"
