@@ -27,12 +27,12 @@ taal bevat:
 
 
 
-##Taal ondersteunt:   
+### Taal ondersteunt:   
 Loops? Voorbeeld: [while.txt](voorbeelden/while.txt) - [regel 4]     
 Goto-statements? Voorbeeld: [if.txt](voorbeelden/if.txt) - [regel 4]   
 Lambda-calculus? Voorbeeld: [lambdaCalc.txt](voorbeelden/lambdaCalc.txt) - [regels 9 , 11]    
 
-##Bevat:    
+### Bevat:    
 Classes met inheritance: bijvoorbeeld [nodes.py](nodes.py) - [regels: 7,16,31]      
 Object-printing voor elke class: [__ja__/~nee~]      
 Decorator: functiedefinitie op [lex.py](lex.py) - [regel: 72], toegepast op [interpreter.py](interpreter.py) - [regel: 94-95]     
@@ -42,13 +42,13 @@ Minstens drie toepassingen van hogere-orde functies:
 2. [parser_scolang.py](parser_scolang.py) - [regel 184]     
 3. [token_types.py](token_types.py) - [regels: 50,52]    
 
-##Interpreter-functionaliteit Must-have:  
+### Interpreter-functionaliteit Must-have:  
 Functies: [één per file / meer per file]  
 Functie-parameters kunnen aan de interpreter meegegeven worden door:    
 Functies kunnen andere functies aanroepen: zie voorbeeld [file] - [regel]    
 Functie resultaat wordt op de volgende manier weergegeven:    
 
-##Interpreter-functionaliteit (should/could-have):    
+### Interpreter-functionaliteit (should/could-have):    
 [Gekozen functionaliteit] geïmplementeerd door middel van de volgende functies: a) [functie] in [file] op regel [regel]   
 [Extra functionaliteit overlegd met docent, goedkeuring: datum e-mail; overeengekomen max. aantal punten: X]   
 
