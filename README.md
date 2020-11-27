@@ -1,5 +1,5 @@
 # ATP_Scolang
- python interpreter for a new programming language
+ Python interpreter for a new programming language
 
 ## Bestanden
  - <b>[interpreter.py](interpreter.py) :</b> In deze file staat het interpret gedeelte, dus het doorlopen van de AST en uiteindelijk een output genereren.
